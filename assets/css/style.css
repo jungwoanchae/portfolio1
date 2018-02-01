@@ -1,0 +1,47 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dt {
+  margin: 0;
+  padding: 0;
+}
+dd {
+  display: inline-block;
+}
+fieldset {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+legend {
+  text-indent: -9999px;
+  font-size: 0;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+button,
+input {
+  vertical-align: middle;
+}
+.header {
+  border: 1px #f00 solid;
+  height: 100px;
+}
+.header-row {
+  border: 1px #f00 solid;
+  height: 40px;
+}
