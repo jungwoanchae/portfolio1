@@ -122,6 +122,41 @@ input {
   margin: 0 auto;
   text-emphasis-color: #fff;
 }
+.content_sub3 {
+  position: relative;
+  width: 908px;
+  height: 2710px;
+  margin: 10px auto;
+}
+.sub3_content1 img {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.sub3_content2 {
+  margin: 15px 8.5px 25px 0;
+  width: 294px;
+  height: 141px;
+  float: left;
+}
+.sub3_content2 img {
+  width: 294px;
+  height: 141px;
+  margin: 0 auto;
+  display: block;
+}
+.sub3_content2 span {
+  font-size: 12px;
+  display: block;
+  padding-top: 3px;
+  width: 294px;
+  text-align: left;
+  margin: 5px auto;
+  color: #666;
+  font-family: 'Malgun Gothic';
+  font-weight: bold;
+}
 footer {
   margin-top: 80px;
   height: 440px;

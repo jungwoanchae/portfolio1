@@ -122,6 +122,12 @@ input {
   margin: 0 auto;
   text-emphasis-color: #fff;
 }
+.content_sub2 {
+  position: relative;
+  width: 900px;
+  height: 840px;
+  margin: 10px auto;
+}
 footer {
   margin-top: 80px;
   height: 440px;
