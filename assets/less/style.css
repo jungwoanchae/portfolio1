@@ -98,33 +98,171 @@ input {
   height: 40px;
   margin: 0 auto;
 }
+.menu-text2 {
+  float: left;
+}
+.menu-text2 .menu1 {
+  display: none;
+}
+table {
+  width: 950px
+  height: 300px;
+}
+.menu-text2 li:hover .menu1 {
+  background-color: #ffffff;
+  width: 980px;
+  height: 215px;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 40px;
+  line-height: 10px;
+  border: 1px #DFDFDF solid;
+}
+.menu-text2 li:hover .menu1 th {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic";
+  margin-top: 30px;
+  display: inline-block;
+  width: 80px;
+}
+.menu-text2 li:hover .menu1 td {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  margin-top: 8px;
+  display: inline-block;
+  width: 80px;
+}
+.menu-text2 li:hover .menu1 li:hover {
+  color: #f00;
+}
+.menu-text2 .menu5 {
+  display: none;
+}
+.menu-text2 li:hover .menu5 {
+  background-color: #ffffff;
+  width: 171px;
+  height: 151px;
+  display: block;
+  position: absolute;
+  left: 464px;
+  top: 40px;
+}
+.menu-text2 li:hover .menu5 li {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  line-height: 17px;
+  margin-left: 30px;
+  border: none;
+}
+.menu-text2 li:hover .menu5 li:hover {
+  color: #f00;
+}
+.menu-text2 .menu6 {
+  display: none;
+}
+.menu-text2 li:hover .menu6 {
+  background-color: #ffffff;
+  width: 171px;
+  height: 195px;
+  display: block;
+  position: absolute;
+  left: 593px;
+  top: 40px;
+}
+.menu-text2 li:hover .menu6 li {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  line-height: 17px;
+  margin-left: 30px;
+  border: none;
+  display: inline-block;
+  width: 100px;
+}
+.menu-text2 li:hover .menu6 li:hover {
+  color: #f00;
+}
+.menu-text2 .menu7 {
+  display: none;
+}
+.menu-text2 li:hover .menu7 {
+  background-color: #ffffff;
+  width: 171px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 715px;
+  top: 40px;
+  line-height: 10px;
+}
+.menu-text2 li:hover .menu7 li {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  margin-left: 30px;
+  border: none;
+  display: inline-block;
+  width: 100px;
+}
+.menu-text2 li:hover .menu7 li:hover {
+  color: #f00;
+}
+.menu-text2 li:hover span {
+  background-color: #7f8083;
+  color: #ffffff;
+  text-shadow: none;
+}
 .menu-text2 li {
   display: inline;
-  border-left: 1px #777 solid;
   float: left;
-  text-align: center;
-  padding: 0 41.4px;
-  margin-top: 10px;
+  cursor: pointer;
+  border-left: 1px #DFDFDF solid;
+  height: 13px;
+  margin-top: 14px;
 }
 .menu-text2 li:last-child {
-  border-right: 1px #777 solid;
+  border-right: 1px #DFDFDF solid;
 }
-.menu-text2 li a {
+.menu-text2 span {
+  position: relative;
   font-size: 12px;
-  color: #777;
+  color: #000000;
   font-family: Malgun Gothic;
-  font-weight: 900;
-  top: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  width: 125px;
+  vertical-align: text-bottom;
+  display: block;
+  height: 41px;
+  margin-top: -14px;
+  text-shadow: #DFDFDF 0px 1px, #DFDFDF 1px 0px, #DFDFDF -1px 0px, #DFDFDF 0px -1px, #DFDFDF -1px -1px, #DFDFDF 1px 1px, #DFDFDF 1px -1px, #DFDFDF -1px 1px;
+}
+.menu-text2 span:hover {
+  background-color: #7f8083;
+  color: #fff;
 }
 .menu-text2 li:hover {
   background-color: #7f8083;
-  height: 40px;
-  margin: 0 auto;
-  text-emphasis-color: #fff;
 }
 footer {
   margin-top: 80px;
-  height: 440px;
+  height: 450px;
+}
+#footer-all {
+  width: 1000px;
+  height: 450px;
+  margin: 0 auto;
 }
 #footer {
   background-color: #434343;
@@ -133,7 +271,7 @@ footer {
 }
 #footer-left {
   float: left;
-  margin: 30px 0 0 450px;
+  margin: 30px 0 0 0;
   width: 300px;
 }
 #footer-left li > a {

@@ -70,130 +70,286 @@ button, input{vertical-align: middle;}
   height: 40px;
   margin: 0 auto;
 }
+.menu-text2{
+  float: left;
+}
+// 메뉴1(쇼핑몰)
+.menu-text2 .menu1{
+  display:none;
+}
+table{
+  width: 950px
+  height: 300px;
+}
+// th, td{
+//   border: 1px #f00 solid;
+// }
+.menu-text2 li:hover .menu1{
+  background-color: #ffffff;
+  width: 980px;
+  height: 215px;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 40px;
+  line-height: 10px;
+  border: 1px #DFDFDF solid;
+  z-index: 9999px;
+}
+.menu-text2 li:hover .menu1 th{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Malgun Gothic";
+  margin-top: 30px;
+  display: inline-block;
+  width: 80px;
+}
+.menu-text2 li:hover .menu1 td{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  margin-top: 8px;
+  display: inline-block;
+  width: 80px;
+}
+
+.menu-text2 li:hover .menu1 li:hover{
+  color: #f00;
+}
+
+
+// 메뉴5(커뮤니티)
+.menu-text2 .menu5{
+  display:none;
+}
+.menu-text2 li:hover .menu5{
+  background-color: #ffffff;
+  width: 171px;
+  height: 151px;
+  display: block;
+  position: absolute;
+  left: 464px;
+  top: 40px;
+  border: 1px #DFDFDF solid;
+}
+.menu-text2 li:hover .menu5 li{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  line-height: 17px;
+  margin-left: 30px;
+  border: none;
+}
+.menu-text2 li:hover .menu5 li:hover{
+  color: #f00;
+}
+// 메뉴6(고객센터)
+.menu-text2 .menu6{
+  display:none;
+}
+.menu-text2 li:hover .menu6{
+  background-color: #ffffff;
+  width: 171px;
+  height: 195px;
+  display: block;
+  position: absolute;
+  left: 593px;
+  top: 40px;
+  border: 1px #DFDFDF solid;
+}
+.menu-text2 li:hover .menu6 li{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  line-height: 17px;
+  margin-left: 30px;
+  border: none;
+  display: inline-block;
+  width: 100px;
+}
+.menu-text2 li:hover .menu6 li:hover{
+  color: #f00;
+}
+// 메뉴7(일룸소개)
+.menu-text2 .menu7{
+  display:none;
+}
+.menu-text2 li:hover .menu7{
+  background-color: #ffffff;
+  width: 171px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 715px;
+  top: 40px;
+  line-height: 10px;
+  border: 1px #DFDFDF solid;
+}
+.menu-text2 li:hover .menu7 li{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Malgun Gothic";
+  margin-left: 30px;
+  border: none;
+  display: inline-block;
+  width: 100px;
+}
+.menu-text2 li:hover .menu7 li:hover{
+  color: #f00;
+}
+.menu-text2 li:hover span{
+  background-color: rgba(127, 128, 131, 1);
+  color: #ffffff;
+  text-shadow: none;
+}
 .menu-text2 li{
   display: inline;
-  border-left: 1px #777 solid;
   float: left;
-  text-align: center;
-  padding: 0 41.4px;
-  margin-top: 10px;
+  cursor: pointer;
+  border-left: 1px #DFDFDF solid;
+  height: 13px;
+  margin-top: 14px;
 }
 .menu-text2 li:last-child{
-  border-right: 1px #777 solid;
+  border-right: 1px #DFDFDF solid;
 }
-.menu-text2 li a{
-  font-size: 12px;
-  color: #777;
-  font-family:Malgun Gothic;
-  font-weight: 900;
-  top: 10px;
-}
-.menu-text2 li:hover{
-  background-color: rgba(127, 128, 131, 1);
-  height: 40px;
-  margin: 0 auto;
-  text-emphasis-color: #fff;
-}
-.content_sub2{
+.menu-text2 span{
   position: relative;
-  width: 900px;
-  height: 840px;
-  margin: 10px auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-  margin-top: 80px;
-  height: 440px;
-}
-#footer{
-  background-color: #434343;
-  width: 100%;
-  height: 395px;
-}
-#footer-left{
-  float: left;
-  margin: 30px 0 0 450px;
-  width: 300px;
-}
-#footer-left li>a{
-  color: #aaa;
-  font-family:Malgun Gothic;
-  font-size: 13px;
-  line-height: 20px;
-}
-#footer-left p{
-  color: #eee;
-  font-family:Malgun Gothic;
-  font-size: 13px;
-  line-height: 20px;
-}
-#footer-center{
-  float: left;
-  margin: 30px auto;
-  width: 430px;
-}
-#footer-center li{
-  color: #aaa;
-  font-family:Malgun Gothic;
-  font-size: 13px;
-  line-height: 20px;
-}
-#footer-center .btn-foot{
-  margin-top: 60px;
-}
-#footer-center img{
-  display: inline-block;
-  float: left;
-}
-#footer-right{
-  float: left;
-  margin-top: 30px;
-  width: 240px;
-}
-#footer-right li{
-  color: #eee;
-  font-family:Malgun Gothic;
-  line-height: 20px;
-}
-#footer-right span{
-  color: #eee;
-  font-family:Malgun Gothic;
+  font-size: 12px;
+  color: #000000;
+  font-family: Malgun Gothic;
   font-weight: bold;
-  line-height: 20px;
-  margin-top: 5px;
+  text-align: center;
+  line-height: 40px;
+  width: 125px;
+  vertical-align: text-bottom;
+  display: block;
+  height: 41px;
+  margin-top: -14px;
+  text-shadow: #DFDFDF 0px 1px, #DFDFDF 1px 0px, #DFDFDF -1px 0px,
+  #DFDFDF 0px -1px, #DFDFDF -1px -1px, #DFDFDF 1px 1px,
+  #DFDFDF 1px -1px, #DFDFDF -1px 1px;
 }
-.footer-right1{
-  border-bottom: 1px #eee solid;
-}
-.footer-right1 li{
-  font-size: 11px;
-  line-height: 20px;
-  margin-left: 114px;
-}
-#company-rink{
-  margin: 15px auto;
-  height: 50px;
-  width: 1000px;
-}
-#company-rink img{
-  float: left;
-  display: flex;
-  justify-content: center;
-  margin-left: 73px;
-  padding: 5px;
-}
+.menu-text2 span:hover{
+  background-color: rgba(127, 128, 131, 1);
+  color: #fff;}
+  .menu-text2 li:hover{
+    background-color: rgba(127, 128, 131, 1);
+  }
+
+  // 메뉴바 종료
+
+  .content_sub2{
+    position: relative;
+    width: 900px;
+    height: 840px;
+    margin: 10px auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    margin-top: 80px;
+    height: 450px;
+  }
+  #footer-all{
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+  }
+  #footer{
+    background-color: #434343;
+    width: 100%;
+    height: 395px;
+  }
+  #footer-left{
+    float: left;
+    margin: 30px 0 0 0;
+    width: 300px;
+  }
+  #footer-left li>a{
+    color: #aaa;
+    font-family:Malgun Gothic;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #footer-left p{
+    color: #eee;
+    font-family:Malgun Gothic;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #footer-center{
+    float: left;
+    margin: 30px auto;
+    width: 430px;
+  }
+  #footer-center li{
+    color: #aaa;
+    font-family:Malgun Gothic;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #footer-center .btn-foot{
+    margin-top: 60px;
+  }
+  #footer-center img{
+    display: inline-block;
+    float: left;
+  }
+  #footer-right{
+    float: left;
+    margin-top: 30px;
+    width: 240px;
+  }
+  #footer-right li{
+    color: #eee;
+    font-family:Malgun Gothic;
+    line-height: 20px;
+  }
+  #footer-right span{
+    color: #eee;
+    font-family:Malgun Gothic;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .footer-right1{
+    border-bottom: 1px #eee solid;
+  }
+  .footer-right1 li{
+    font-size: 11px;
+    line-height: 20px;
+    margin-left: 114px;
+  }
+  #company-rink{
+    margin: 15px auto;
+    height: 50px;
+    width: 1000px;
+  }
+  #company-rink img{
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-left: 73px;
+    padding: 5px;
+  }
