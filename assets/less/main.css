@@ -138,7 +138,7 @@ table {
   display: inline-block;
   width: 80px;
 }
-.menu-text2 li:hover .menu1 li:hover {
+.menu-text2 li:hover .menu1 td:hover {
   color: #f00;
 }
 .menu-text2 .menu5 {

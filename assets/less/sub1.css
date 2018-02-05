@@ -138,7 +138,7 @@ table {
   display: inline-block;
   width: 80px;
 }
-.menu-text2 li:hover .menu1 li:hover {
+.menu-text2 li:hover .menu1 td:hover {
   color: #f00;
 }
 .menu-text2 .menu5 {
@@ -153,6 +153,7 @@ table {
   left: 464px;
   top: 40px;
   border: 1px #DFDFDF solid;
+  z-index: 10px;
 }
 .menu-text2 li:hover .menu5 li {
   background-color: #ffffff;
@@ -259,7 +260,6 @@ table {
   background-color: #7f8083;
 }
 .content {
-  position: relative;
   width: 900px;
   height: 1610px;
   margin: 10px auto;
